@@ -1,0 +1,61 @@
+.form{
+    position:relative;
+    height:500;
+    width:750;
+    margin:10% 0 0 1%;
+    border:solid;
+    border-width:7.5;
+    border-color: rgb(20,20,20);
+}
+
+input[type=text], select, textarea {
+    width: 920;
+    padding: 12; 
+    border-radius: 4;
+    margin-top: 6;
+    margin-bottom: 16;
+  }
+  
+  input[type=submit] {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(15,15,15);
+    color: rgb(229,194,138);
+    padding: 12 20;
+    border: solid;
+    border-color:rgb(10,10,10);
+    border-width: 2;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color:rgb(75,75,75);
+    color: rgb(15,15,15);
+  }
+  
+  .cform {
+    position:absolute;
+    border-radius: 5;
+    background-color: rgb(20,20,20);
+    padding: 30;
+    margin:-27% 0 0 46.8%;
+  }
+
+  .cform label{
+      font-family: 'Courier New', Courier, monospace;
+      color:rgb(229,194,138);
+  }
+
+  .cform textarea{
+    height:200px;
+  }
+
+  .cont{
+    position:absolute;
+    font-family: 'Courier New', Courier, monospace;
+    color:rgb(229,194,138);
+    background-color: rgb(20,20,20);
+    padding:5;
+    font-size:30;
+    margin:-29.2% 0 0 46.8%;
+  }
+  

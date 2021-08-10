@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <script type="text/javascript" src="assets/lightbox.min.js"></script>
+        <script type="text/javascript" src="assets/navbar.js"></script>
+        <script type="text/javascript" src="assets/validacija.js"></script>
+        <link rel="stylesheet" href="assets/navbar.css">
+        <link rel="stylesheet" href="assets/contact.css">
+        <link rel="stylesheet" href="assets/lightbox.min.css">
+        <title>Kontakt - ANUBIS Gaming</title>
+    </head>
+    <body>
+
+        <div class="navbar">
+            <img src="images/icon-logo/Anubis big.png" class="img"/>
+            <ul>
+                <li>Kontakt</li>
+            </ul>
+            <div class="dropdown">
+              <input type="image" src="images/icon-logo/menu.png" onclick="showfnc()" class="dropbutton"/>
+              <div id="dropbtn" class="dropdown-content">
+                <p>Jezik:</p>
+                <img src="images/icon-logo/srb.png" class="srpski"/><a href="#">Srpski</a>
+                <img src="images/icon-logo/eng.png" class="engleski"/><a href="contact.html">Engleski</a>
+                <p>Meni:</p>
+                <a href="glavna.html">Glavna</a>
+                <a href="misevi.html">Miševi</a>
+                <a href="tastature.html">Tastature</a>
+                <a href="slusalice.html">Slušalice</a>
+                <a href="#">Kontakt</a>
+                <a href="informacija.html">Informacija</a>
+              </div>
+            </div>
+        </div>
+
+        <div class="footer">
+          <p class="createdby">Napravio: Džemil Šahović</p>
+          <p class="sm">Društvene mreže:</p>
+          <img src="images/icon-logo/facebook.png" class="fb"> 
+        </div>
+
+        <img src="images/icon-logo/form.jpg" class="form">
+
+    <div class="contact">
+            <p class="cont">Kontakt</p>
+            <div class="cform">
+                <form onsubmit="return proveraPodataka()" action ="kontakt.html" method="POST">
+                <label for="fname">Ime i prezime:</label>
+                <input type="text" id="fname" name="fullname" placeholder="John Appleseed" required>
+                <label for="email">Mail:</label>
+                <input type="text" id="email" name="email" placeholder="neko@mail.com" required>
+                <label for="subject">Poruka:</label>
+                <textarea id="message" name="subject" placeholder="Napišite nešto (najviše 255 karaktera)" required></textarea>
+                <input type="submit" value="Posalji"/>
+            </form>
+          </div>
+        </div>
+      </body>
+</html>
+          

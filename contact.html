@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <script type="text/javascript" src="assets/lightbox.min.js"></script>
+        <script type="text/javascript" src="assets/navbar.js"></script>
+        <script type="text/javascript" src="assets/validate.js"></script>
+        <link rel="stylesheet" href="assets/navbar.css">
+        <link rel="stylesheet" href="assets/contact.css">
+        <link rel="stylesheet" href="assets/lightbox.min.css">
+        <title>Contact - ANUBIS Gaming</title>
+    </head>
+    <body>
+        <div class="navbar">
+            <img src="images/icon-logo/Anubis big.png" class="img"/>
+            <ul>
+                <li>Contact</li>
+            </ul>
+            <div class="dropdown">
+              <input type="image" src="images/icon-logo/menu.png" onclick="showfnc()" class="dropbutton"/>
+              <div id="dropbtn" class="dropdown-content">
+                <p>Language:</p>
+                <img src="images/icon-logo/srb.png" class="srpski"/><a href="kontakt.html">Serbian</a>
+                <img src="images/icon-logo/eng.png" class="engleski"/><a href="#">English</a>
+                <p>Menu:</p>
+                <a href="home.html">Home</a>
+                <a href="mice.html">Mice</a>
+                <a href="keyboards.html">Keyboards</a>
+                <a href="headphones.html">Headphones</a>
+                <a href="#">Contact</a>
+                <a href="info.html">Info</a>
+              </div>
+            </div>
+        </div>
+
+        <div class="footer">
+          <p class="createdby">Created by: Džemil Šahović</p>
+          <p class="sm">Social media:</p>
+          <img src="images/icon-logo/facebook.png" class="fb"> 
+        </div>
+
+        <img src="images/icon-logo/form.jpg" class="form">
+
+        <div class="contact">
+          <p class="cont">Contact</p>
+          <div class="cform">
+              <form action="contact.html" onsubmit="return proveraPodataka()">
+              <label for="fname">Full Name:</label>
+              <input type="text" id="fname" name="fullname" placeholder="John Appleseed" required>
+              <label for="email">Mail:</label>
+              <input type="text" id="email" name="email" placeholder="someone@mail.com" required>
+              <label for="subject">Message:</label>
+              <textarea id="message" name="subject" placeholder="Write something (max. 255 characters)" required></textarea>
+              <input type="submit" value="Submit">
+          </form>
+        </div>
+      </div>
+    </body>
+</html>

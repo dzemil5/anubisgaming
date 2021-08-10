@@ -1,0 +1,29 @@
+.pfp{
+    height:500;
+    width:550;
+    border:solid;
+    border-color:rgb(20,20,20);
+    border-width: 7.5;
+    margin:10% 0 0 7.5%;
+}
+
+
+
+.abme{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30;
+    color:rgb(229,194,138);
+    background-color: rgb(20,20,20);
+    position:absolute;
+    margin:-20.25% 0 0 45%;
+    padding:10;
+}
+
+.opis{
+    font-family: 'Courier New', Courier, monospace;
+    color:rgb(229,194,138);
+    background-color: rgb(20,20,20);
+    position:absolute;
+    margin:-18% 0 0 45%;
+    padding:20;
+}

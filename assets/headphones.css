@@ -1,0 +1,132 @@
+.galerija .img1, .img2, .img3{
+    padding:5;
+    position:relative;
+}
+
+.galerija img:hover{
+    transition:1s;
+    transform: scale(1.01);
+}
+
+.main1{
+    width:47.2%;
+    height:50%;
+    margin:7.25% 0 0 2.8%;
+}
+
+.img1{
+    width:15.5%;
+    height:22%;
+    margin:0 -0.4% -11.7% -47.7%;
+}
+
+.img2{
+    width:15.5%;
+    height:22%;
+    margin:0 -0.4% -11.7% 0%;
+}
+
+.img3{
+    width:15.5%;
+    height:22%;
+    margin:0 -0.4% -11.7% 0%;
+}
+
+.products{
+    color:rgb(229,194,138);
+    font-size: 30;
+    background-color:rgb(20,20,20);
+    padding:5;
+    font-family: 'Courier New', Courier, monospace;
+    position:absolute;
+    margin:-16.25% 0 0 55%;
+}
+
+.items{
+    margin-top:2%;
+}
+
+.items img{
+    position:absolute;
+    padding:20 10 40 10;
+    background-color:rgb(20,20,20);
+    height:200;
+    width:200;
+}
+
+.hp1{
+    margin:-14% 0 0 55%;
+}
+
+.hp2{
+    margin:-14% 0 0 65%;
+}
+
+.hp3{
+    margin:-14% 0 0 75%;
+}
+
+.hp4{
+    margin:-2% 0 0 55%;
+}
+
+.hp5{
+    margin:-2% 0 0 65%;
+}
+
+.hp6{
+    margin:-2% 0 0 75%;
+}
+
+.prices p{
+    font-family: 'Courier New', Courier, monospace;
+    color:rgb(229,194,138);
+    font-size:15;
+    position:absolute;
+}
+
+.one{
+    margin:-2% 0 0 59.3%;
+}
+
+.two{
+    margin:-2% 0 0 69.3%;
+}
+
+.three{
+    margin:-2% 0 0 80%;
+}
+
+.four{
+    margin:10.6% 0 0 59.3%;
+}
+
+.five{
+    margin:10.6% 0 0 69.3%;
+}
+
+.six{
+    margin:10.6% 0 0 80%;
+}
+
+.description{
+    font-family: 'Courier New', Courier, monospace;
+        color:rgb(229,194,138);
+    
+    }
+    
+    .abt{
+        width:31%;
+        background-color: rgb(20,20,20);
+        margin:-27% -25% 0 55%;
+        padding:5;
+        position:absolute;
+    }
+    
+    .kyb{
+        font-size: 30;
+        padding:5;
+        background-color: rgb(20,20,20);
+        margin:-28.9% 0 0 55%;
+        position:absolute;
+    }

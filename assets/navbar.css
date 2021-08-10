@@ -1,0 +1,140 @@
+body{
+    background-color: rgb(30,30,30);
+}
+
+.navbar{
+    background-color: rgb(75,75,75);
+    margin-top: -8;
+    margin-left: -8;
+    margin-right: -8;
+    height:75;
+    width:100%;
+    position:fixed;
+    z-index: 999;
+}
+
+.img{
+    margin-top:7;
+    width:200;
+    height:60;
+    display: block;
+    float:left;
+    position:absolute;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    color:rgb(229,194,138);
+    text-align:center;
+    font-family: Courier;
+    font-size:40;
+    margin-top:15;
+    position:relative;
+}
+
+.dropbutton {
+    float:right;
+    height:55;
+    width:55;
+    margin-right:15;
+    margin-top:-50;
+    background-color: rgb(15,15,15);
+    color: rgb(75,75,75);
+    font-size: 16;
+    border: none;
+    cursor: pointer;
+  }
+
+  .dropbutton:hover, .dropbutton:focus {
+    background-color: rgb(100,100,100);
+  }
+
+  .dropdown {
+    float:right;
+    position: relative;
+    z-index:999;
+  }
+  
+  .dropdown-content {
+    display: none;
+    min-width:160;
+    margin-top:5;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(75,75,75);
+    box-shadow: 0 8 16 0 rgba(0,0,0,0.2);
+  }
+
+  .dropdown-content a{
+    color: rgb(229,194,138);
+    padding: 15 20;
+    text-decoration: none;
+    display: block;
+    width:200;
+  }
+
+  .dropdown-content p {
+    color: rgb(229,194,138);
+    padding-top:10;
+    padding-left:30;
+    text-align:center;
+    text-decoration: none;
+    display: block;
+    width:200;
+  }
+
+  .dropdown-content a:hover {background-color:rgb(100,100,100)}
+  
+  .dropdown:hover .dropdown-content {display:block;}
+
+  .dropdown:hover .dropbutton{background-color: rgb(100,100,100);}
+
+
+  .srpski, .engleski {
+    height:15;
+    width:25;
+    position:relative;
+    float:right;
+    margin:16;
+  }
+
+  
+.footer {
+  width:100.2%;
+  height:100;
+  background-color:rgb(75,75,75);
+  position: fixed;
+  top:93.0%;
+  margin-left:-0.5%;
+  color: white;
+  text-align: center;
+  z-index: 999;
+}
+
+.createdby{
+  font-family: 'Courier New', Courier, monospace;
+  color:rgb(229,194,138);
+  position:fixed;
+  margin-left:42%;
+}
+
+.sm{
+  font-family: 'Courier New', Courier, monospace;
+  color:rgb(229,194,138);
+  position:fixed;
+  margin-left:85%;
+  margin-top:20;
+}
+
+.fb{
+  width:40;
+  height:40;
+  margin-left:43.5%;
+  margin-top:0.5%;
+  position:fixed;
+  z-index: 999;
+}
